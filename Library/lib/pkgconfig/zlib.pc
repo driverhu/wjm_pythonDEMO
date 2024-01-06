@@ -1,0 +1,13 @@
+prefix=E:/work/pydemo/Library
+exec_prefix=E:/work/pydemo/Library
+libdir=E:/work/pydemo/Library/lib
+sharedlibdir=E:/work/pydemo/Library/lib
+includedir=E:/work/pydemo/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
